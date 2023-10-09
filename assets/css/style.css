@@ -11,6 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
   color: #444444;
 }
 
@@ -262,7 +263,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #090909;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -283,7 +284,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #fff;
+  color: #101010;
 }
 
 .navbar .dropdown:hover>ul {
@@ -319,7 +320,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #0c0b0b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -368,7 +369,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #f8f2f2;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -383,7 +384,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #cc1616;
+  color: #0e0d0d;
   background: none;
 }
 
@@ -400,7 +401,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #0e0e0e;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -419,7 +420,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #cc1616;
+  color: #050505;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -628,7 +629,7 @@ section {
 
 .why-us .box h4 {
   font-size: 24px;
-  font-weight: 600;
+  /* font-weight: 600; */
   padding: 0;
   margin: 20px 0;
   color: #191919;
@@ -694,8 +695,8 @@ section {
 }
 .image-text {
   position: absolute;
-  top: 45%;
-  left: 15%;
+  top: 50%;
+  left: 24%;
   transform: translate(-40%, -40%);
   background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang teks di dalam gambar */
   color: gold; /* Warna teks keemasan */
@@ -729,8 +730,8 @@ section {
 
 @media (max-width: 768px) {
   .image-text {
-    top: 40%; /* Ubah posisi teks untuk tampilan layar lebih kecil */
-    left: 15%; /* Ubah posisi teks untuk tampilan layar lebih kecil */
+    top: 50%; /* Ubah posisi teks untuk tampilan layar lebih kecil */
+    left: 24%; /* Ubah posisi teks untuk tampilan layar lebih kecil */
     font-size: 18px; /* Ukuran teks yang berbeda untuk tampilan layar lebih kecil */
   }
 }
@@ -1044,7 +1045,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #cc1616;
+  color: #101010;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
