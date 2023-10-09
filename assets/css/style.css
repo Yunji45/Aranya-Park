@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #cc1616;
+  background: #ffd230;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e72323;
+  background: #e3e0e0;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   /* background: rgba(25, 25, 25, 0.95); */
-  background: rgba(212, 3, 3, 0.95);
+  background: rgba(236, 214, 48, 0.95);
 
   transition: all 0.5s;
   z-index: 997;
@@ -168,8 +168,10 @@ h6 {
 
 #header.fixed-top {
   /* background: #191919; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../section/ap1_142_v1.png');
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../section/ap1_142_v1.png'); */
   background-size: cover; /* Mengatur gambar latar belakang untuk menutupi elemen */
+  color: black; /* Mengubah warna font menjadi putih */
 
 }
 
@@ -188,7 +190,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 .scrolled-offset {
@@ -226,9 +228,10 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 15px 24px 15px;
+  padding: 25px 15px; /* Mengurangi padding bawah */
+  /* padding: 25px 15px 24px 15px; */
   font-size: 14px;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -245,7 +248,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   /* background: #cc1616; */
-  background: rgba(204, 22, 22, 0.5); /* Gunakan rgba untuk latar belakang transparan */
+  background: rgba(237, 192, 43, 0.5); /* Gunakan rgba untuk latar belakang transparan */
 
 }
 
@@ -453,7 +456,7 @@ h6 {
   line-height: 56px;
   /* text-transform: uppercase; */
   /* color: #fff; */
-  color: #d3b363; /* Warna teks keemasan yang lebih tua */
+  color: #ffd230; /* Warna teks keemasan yang lebih tua */
 }
 
 #hero h2 {
@@ -484,8 +487,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #bfb7b7;
+  border-color: #cbc2c2;
 }
 
 @media (min-width: 1024px) {
@@ -596,7 +599,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cc1616;
+  color: #d3b363;
 }
 
 .about .content p:last-child {
@@ -620,7 +623,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ed5b5b;
+  color: #ffd230;
 }
 
 .why-us .box h4 {
@@ -639,7 +642,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cc1616;
+  background: #ffd230;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -872,7 +875,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #e82d2d;
+  color: #d3b363;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -919,7 +922,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cc1616;
+  color: #d3b363;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1203,10 +1206,10 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #cc1616;
+  color: #ffd230;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f5a0a0;
+  border: 2px dotted #f5e4a0;
 }
 
 .contact .info-box h3 {
@@ -1231,7 +1234,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #d3b363;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1278,7 +1281,7 @@ section {
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-  background-color: #cc1616;
+  background-color: #ffd230;
 }
 
 .contact .php-email-form input {
@@ -1290,7 +1293,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #cc1616;
+  background: #ffd230;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1298,7 +1301,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #e82d2d;
+  background: #ffd230;
 }
 
 @keyframes animate-loading {
@@ -1362,7 +1365,7 @@ section {
   margin-bottom: 15px;
   background: #191919;
   color: #fff;
-  border-top: 4px solid #cc1616;
+  border-top: 4px solid #ffd230;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1398,7 +1401,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #d3b363;
   color: #fff;
   text-decoration: none;
 }
@@ -1423,7 +1426,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ed5b5b;
+  color: #d3b363;
   font-size: 18px;
   line-height: 1;
 }
@@ -1446,7 +1449,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #eb4444;
+  color: #d3b363;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1472,14 +1475,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #cc1616;
+  background: #ffd230;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #e82d2d;
+  background: #ffd230;
 }
 
 #footer .copyright {
