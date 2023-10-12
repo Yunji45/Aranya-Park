@@ -1,11 +1,11 @@
 var swiper = new Swiper(".slide-content", {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
+    // speed: 600,
+    // loop: true,
+    // autoplay: {
+    //   delay: 3000,
+    //   disableOnInteraction: false
+    // },
+    // slidesPerView: 'auto',
 
     slidesPerView: 3,
     spaceBetween: 25,

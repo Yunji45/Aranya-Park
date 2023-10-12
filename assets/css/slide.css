@@ -53,7 +53,8 @@
   border-radius: 25px;
 }
 .card{
-  border-radius: 25px;
+  /* border-radius: 25px; */
+  /* border: 2px solid #000; */
   background-color: #FFF;
 }
 .image-content,
@@ -70,7 +71,7 @@
 .image-content{
   position: relative;
   row-gap: 5px;
-  padding: 25px 0;
+  padding: 10px 0;
 }
 .overlay{
   position: absolute;
@@ -78,8 +79,8 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffd230;
-  border-radius: 25px 25px 0 25px;
+  /* background-color: #ffd230; */
+  /* border-radius: 25px 25px 0 25px; */
 }
 .overlay::before,
 .overlay::after{
@@ -89,7 +90,7 @@
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #ffd230;
+  /* background-color: #ffd230; */
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -97,8 +98,8 @@
 }
 .card-image{
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 320px;
   /* border-radius: 50%; */
   background: #FFF;
   padding: 3px;
